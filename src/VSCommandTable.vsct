@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <Extern href="stdidcmd.h"/>
+    <Extern href="vsshlids.h"/>
+
+    <Commands package="guidPackage">
+        <Buttons>
+            <Button guid="guidValidatorPackageCmdSet" id="EnableScriptError" priority="0x0100" type="Button">
+                <Parent guid="guidBrowserLinkCmdSet" id="IDG_BROWSERLINK_COMMANDS"/>
+                <Strings>
+                    <ButtonText>Enable JavaScript Errors</ButtonText>
+                </Strings>
+            </Button>
+        </Buttons>
+    </Commands>
+
+    <Symbols>
+        <GuidSymbol name="guidPackage" value="{bb430f0f-6e1a-498c-9c86-9c1f102d43ea}" />
+        <GuidSymbol name="guidAutoLoad" value="{40abc622-657a-46bb-b29e-417a8a43821e}" />
+
+        <GuidSymbol name="guidValidatorPackageCmdSet" value="{0ead6319-7c08-496d-b89e-3909f4082b77}">
+            <IDSymbol name="EnableScriptError" value="0x0100" />
+        </GuidSymbol>
+
+        <GuidSymbol name="guidBrowserLinkCmdSet" value="{30947ebe-9147-45f9-96cf-401bfc671a82}">
+            <IDSymbol name="IDG_BROWSERLINK_COMMANDS" value="0x2001" />
+        </GuidSymbol>
+    </Symbols>
+</CommandTable>
