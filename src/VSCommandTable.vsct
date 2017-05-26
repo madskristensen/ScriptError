@@ -9,7 +9,7 @@
             <Button guid="guidValidatorPackageCmdSet" id="EnableScriptError" priority="0x0100" type="Button">
                 <Parent guid="guidBrowserLinkCmdSet" id="IDG_BROWSERLINK_COMMANDS"/>
                 <Strings>
-                    <ButtonText>Enable JavaScript Errors</ButtonText>
+                    <ButtonText>Enable JavaScript Error Detection</ButtonText>
                 </Strings>
             </Button>
         </Buttons>

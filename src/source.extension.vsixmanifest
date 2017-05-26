@@ -2,8 +2,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="36a06f2c-967d-4d2d-8285-5c1b039b769f" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
-        <DisplayName>Show JavaScript Errors</DisplayName>
-        <Description xml:space="preserve">Shows unhandled JavaScript errors from any running browser directly in the Visual Studio Error List.</Description>
+        <DisplayName>JavaScript Errors Detector</DisplayName>
+        <Description xml:space="preserve">Detects any unhandled JavaScript errors from the running browser and shows them directly in the Visual Studio Error List.</Description>
         <MoreInfo>https://github.com/madskristensen/ScriptError</MoreInfo>
         <License>Resources\LICENSE</License>
         <ReleaseNotes>https://github.com/madskristensen/ScriptError/blob/master/CHANGELOG.md</ReleaseNotes>

@@ -7,7 +7,7 @@ or get the [CI build](http://vsixgallery.com/extension/5f8512da-c0df-4703-b72b-1
 
 ---------------------------------------
 
-Shows unhandled JavaScript errors from any running browser directly in the Visual Studio Error List.
+Detects any unhandled JavaScript errors from the running browser and shows them directly in the Visual Studio Error List.
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
