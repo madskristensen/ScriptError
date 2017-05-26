@@ -21,7 +21,7 @@ Errors show up in the Error List inside Visual Studio after running the script e
 
 ![Error List](art/error-list.png)
 
-## Known issues
+## Known limitations
 
 ### 1. Chrome Developer Tools
 Google Chrome doesn't fire error events when the Developer Tools (F12) are open and therefore no errors will show up in the Error List in Visual Studio.
