@@ -8,7 +8,7 @@ namespace ScriptError
     static class Vsix
     {
         public const string Id = "36a06f2c-967d-4d2d-8285-5c1b039b769f";
-        public const string Name = "JavaScript Errors Detector";
+        public const string Name = "JavaScript Error Detector";
         public const string Description = @"Detects any unhandled JavaScript errors from the running browser and shows them directly in the Visual Studio Error List.";
         public const string Language = "en-US";
         public const string Version = "1.0";
