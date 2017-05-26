@@ -1,6 +1,6 @@
 # Script Error
 
-[![Build status](https://ci.appveyor.com/api/projects/status/nc8k0n8q717lqysf?svg=true)](https://ci.appveyor.com/project/madskristensen/w3cvalidator)
+[![Build status](https://ci.appveyor.com/api/projects/status/5r0c75v55bm4627c?svg=true)](https://ci.appveyor.com/project/madskristensen/scripterror)
 
 Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.W3CValidator)
 or get the [CI build](http://vsixgallery.com/extension/5f8512da-c0df-4703-b72b-1d67315dd560/).

@@ -8,11 +8,11 @@ namespace ScriptError
     static class Vsix
     {
         public const string Id = "36a06f2c-967d-4d2d-8285-5c1b039b769f";
-        public const string Name = "Browser JavaScript Errors";
+        public const string Name = "Show JavaScript Errors";
         public const string Description = @"Shows unhandled JavaScript errors from any running browser directly in the Visual Studio Error List.";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Mads Kristensen";
-        public const string Tags = "javascript, error, exception";
+        public const string Tags = "javascript, error, exception, browser link";
     }
 }
