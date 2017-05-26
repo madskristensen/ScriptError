@@ -98,7 +98,7 @@ namespace ScriptError
         public override bool TryCreateDetailsStringContent(int index, out string content)
         {
             var error = Errors[index];
-            content = $"Url: {Url}\r\nExtract: {HttpUtility.HtmlDecode(error.Extract)}";
+            content = $"Stack Trace: {HttpUtility.HtmlDecode(error.Extract)}";
             return true;
         }
     }
