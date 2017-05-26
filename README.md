@@ -1,4 +1,4 @@
-# Script Error
+# JavaScript Error Detector
 
 [![Build status](https://ci.appveyor.com/api/projects/status/5r0c75v55bm4627c?svg=true)](https://ci.appveyor.com/project/madskristensen/scripterror)
 
