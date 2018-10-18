@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.Shell;
-using System;
+﻿using System;
 using System.ComponentModel.Design;
+using Microsoft.VisualStudio.Shell;
 
 namespace ScriptError
 {
@@ -42,7 +42,8 @@ namespace ScriptError
         private void BeforeQueryStatus(object sender, EventArgs e)
         {
             var button = (MenuCommand)sender;
-            button.Checked = ScriptErrorPackage.Options.RunOnPageLoad;
+
+            button.Checked = ScriptErrorPackage.Options?.RunOnPageLoad == true;
         }
 
         private void MenuItemCallback(object sender, EventArgs e)
